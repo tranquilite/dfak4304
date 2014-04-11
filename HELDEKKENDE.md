@@ -1,14 +1,12 @@
 # FILORGANISERING
 Prosjektet har en noe klarere organisering enn tidligere.
 
-book.tex	:	 Hovedfila. Last inn tilleggspakker her. Hold minimalt med tekst og \input alle kapitlene.
-
-front.tex	:	Front-matter, så, omslag/førsteside.
-
-preamble.tex	:	Preamble. Skreddersydde og/eller overstyrte funskjoner og andre løsninger.
-
-bibliograph.bib	:	Bibliograpfidatafil.
-bibliograph.tex	:	Bibliografiutfil (ikke nødvendig).
+**book.tex**	:	 Hovedfila. Last inn tilleggspakker her. Hold minimalt med tekst og \input alle kapitlene.
+**front.tex**	:	Front-matter, så, omslag/førsteside.
+**indexl.tex**	:	Innholdsfortegnelse
+**preamble.tex**	:	Preamble. Skreddersydde og/eller overstyrte funskjoner og andre løsninger.
+**bibliograph.bib**	:	Bibliograpfidatafil.
+**bibliograph.tex**	:	Bibliografiutfil (ikke nødvendig).
 
 # KAPITTELORGANISERING
 Kapitteldatafilene følger navneparadigmet

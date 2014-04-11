@@ -1,16 +1,19 @@
 \documentclass[draft]{article}
 
-\usepackage{tikz,mathtools,array,caption,graphicx,color,xcolor,todonotes,fancyhdr}
+\usepackage{tikz,mathtools,array,caption,graphicx,color,xcolor,todonotes,fancyhdr,}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[a4paper]{geometry}
+\usepackage[a4paper, showframe=false]{geometry}
 
-\input{preamble.tex}
-\bibliography{bibliograph.bib}
+
+\input{../preamble.tex}
 
 \begin{document}
-%Kapittel 0
-\input{kapittel0s0.tex}
+\input{../front.tex}		%Frontsida
+\input{../indexl.tex}		%Innholdsfortegnelse 
 
-T % Fylltekst, så latex typersetter *noe*
+
+\input{../kapittel0s0.tex}	%Kapittel 0
+
+\input{../bibliograph.tex}
 \end{document}
