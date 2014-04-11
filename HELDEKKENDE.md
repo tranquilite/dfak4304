@@ -1,14 +1,14 @@
-# FILORGANISERING
+## FILORGANISERING
 Prosjektet har en noe klarere organisering enn tidligere.
 
 **book.tex**	:	 Hovedfila. Last inn tilleggspakker her. Hold minimalt med tekst og \input alle kapitlene.
 **front.tex**	:	Front-matter, så, omslag/førsteside.
 **indexl.tex**	:	Innholdsfortegnelse
 **preamble.tex**	:	Preamble. Skreddersydde og/eller overstyrte funskjoner og andre løsninger.
-**bibliograph.bib**	:	Bibliograpfidatafil.
+**bibliograph.bib**	:	Bibliografidatafil.
 **bibliograph.tex**	:	Bibliografiutfil (ikke nødvendig).
 
-# KAPITTELORGANISERING
+## KAPITTELORGANISERING
 Kapitteldatafilene følger navneparadigmet
 
 kapittel1s0	(for kapittel 1, første seksjon)
@@ -20,7 +20,7 @@ Har du et forord eller innledning til et kapittel som ikke er \section-deklarert
 
 Ikke vær redd for å bruke jævlig mange filer, men, hey, hvis kapitlet er superlite, så nøl ei heller ikke med å bare bruke en enkel fil.
 
-# .STY-PAKKER
+## .STY-PAKKER
 Standardpakker som er nødvendige er geometry, inputenc, fontenc
 
 geometry kjører med a4paper
@@ -32,9 +32,9 @@ Det er minst en font som er math-capable; fouriernc, men dette er opp for debatt
 Fordi det er gøy, så er følgende pakker inkludert fra dag en:
 tikz, mathtools, array, caption, graphicx, color, xcolor, todonotes, fancyhdr
 
-# BIBLIOGRAFI
+## BIBLIOGRAFI
 Vi kjører bibtex, og en litt penere - og skreddersydd - løsning for å håndtere bibtexfila er på vei, men ikke forvent den før den fila blir helt uhåndterbar.
 
 Det står lettere notasjon for hva noen få medietyper krever i bib-fila.
 
-Foreløpig er den satt opp til å typesette ette APA.
+Foreløpig er den satt opp til å typesette etter APA.
