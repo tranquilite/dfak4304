@@ -1,0 +1,17 @@
+\pagestyle{plain}
+
+\bibliography{../bibliograph.bib}
+
+\rewnewcommand{\contentsname}{Innholdsfortegnelse}
+
+\newcounter{appendixteller}{1} %Appendixteller. Bruk \roman eller \Alph
+
+\newcommand\kapittelhode[1]{
+\raggedright
+\stepcounter{section}
+\addcontentsline{toc}{section}{#1}
+{\Large \bfseries Kapittel \Roman{section}}\\ \vspace{2em}
+%{\LARGE \bfseries #1}\\
+\parbox{0.9\textwidth}{\huge \bfseries #1}\\ \vspace{0.5em}
+\hrule
+}
