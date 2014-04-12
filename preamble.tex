@@ -4,7 +4,7 @@
 
 \renewcommand{\contentsname}{Innholdsfortegnelse}
 
-\newcounter{appendixteller} %Appendixteller. Bruk \roman eller \Alph
+\newcounter{appendixteller} %Appendixteller. Bruk \roman eller \Alph - etter pre-re-postintroduktiv paginering
 
 \newcommand\kapittelhode[1]{
 \raggedright
@@ -21,3 +21,7 @@
 %type re-reimaginert paginering.
 %(heltallspaginering starter først ved kapittel 1)
 }
+
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox{gray}{\parbox{0.9\textwidth}{#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white}
