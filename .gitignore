@@ -8,5 +8,7 @@
 *.fls
 *.out
 *.toc
+*.pdf
+build/*
 pdflatex.txt
 bibtex.txt
