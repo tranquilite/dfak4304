@@ -9,6 +9,8 @@
 *.out
 *.toc
 *.pdf
+*.swp
 build/*
 pdflatex.txt
 bibtex.txt
+
