@@ -4,7 +4,7 @@ echo "Institutt for Ekstraluminal Diversjonsestetikk"
 echo -e "Verktøy for typesetting av kompendier og læringsmateriell \n"
 echo -e "\t Kjør med -s for å logge stille. \n \t Kjør med -b for å bygge bibliografibiblioteket"
 echo -e "\t GJØR DU ENDRINGER I INNHOLDSLISTA ELLER BIBLIOGRAFIEN, MÅ DU TYPESETTE TO GANGER"
-echo -e "\n \n Utformet av Seksjon for IKT-PED.  Kopirett IDE 2004-2014"
+echo -e "\n \n Utformet av Seksjon for IKT-PED.  Kopirett IED 2004-2014"
 echo -e " \n \n"
 
 cd build/
