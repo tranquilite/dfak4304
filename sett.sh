@@ -8,19 +8,37 @@ echo -e "\n \n Utformet av Seksjon for IKT-PED.  Kopirett EDE 2004-2014"
 echo -e " \n \n"
 
 cd build/
+
 if [ "$1" == "-s" ];
-	then
-		pdflatex ../book.tex >> pdflatex.txt
-		rm pdflatex.txt
-	else
-		echo -e "\n \n"
-		pdflatex ../book.tex
+then
+	pdflatex ../book.tex >> pdflatex.txt
+
+
+elif [ "$1" == "-b" ];
+then
+	echo -e "\n \n"
+	bibtex ../book.tex >> bibtex.txt
+	pdflatex ../book.tex >> pdflatex.txt
+
+elif  [ "$1" == "-d" ];
+then
+	echo -e "\n \n"
+	pdflatex ../book.tex
+	for filename in *
+		do
+		if [ "$filename" != "book.pdf" ]; then
+			rm "$filename"
+		else
+			echo "Keeping"
+		fi
+	done
+	echo "\n Finished \n"
+
+else
+	echo -e "\n \n"
+	pdflatex ../book.tex
+
 fi
-if [ "$1" == "-b" ];
-	then
-		echo -e "\n \n"
-		bibtex ../book.tex >> bibtex.txt
-		pdflatex ../book.tex >> pdflatex.txt
-fi
+
 cd ../
 
