@@ -1,5 +1,4 @@
 #!/bin/bash
-#Og så lager vi en nett fil som gjør det raskere å bygge ;)
 echo "Institutt for Ekstraluminal Diversjonsestetikk"
 echo -e "Verktøy for typesetting av kompendier og læringsmateriell \n"
 echo -e "\t Kjør med -s for å logge stille. \n \t Kjør med -b for å bygge bibliografibiblioteket"
