@@ -1,12 +1,17 @@
 \pagestyle{plain}
 
+
 \bibliography{../bibliograph.bib}
+
 
 \renewcommand{\contentsname}{Innholdsfortegnelse}
 
+
 \newcounter{appendixteller} %Appendixteller. Bruk \roman eller \Alph - etter pre-re-postintroduktiv paginering
 
+
 \newcommand\kapittelhode[1]{
+\newpage
 \raggedright
 \stepcounter{section}
 \addcontentsline{toc}{section}{\Roman{section}. #1}
@@ -16,12 +21,24 @@
 \hrule
 }
 
+
+%\renewcommand\kapittelhode[1]{    
+%\def\VL{\rule[-2cm]{1pt}{5cm}\hspace{1mm}\relax}
+%    \begin{tabular}{p{2cm}  p{5cm}}
+%        \colorbox{red}{}
+%        \makebox[]{\Roman{section} 12}
+%        & #1
+%    \end{tabular}
+%}
+
+
 \newcommand\bokstart{
 %Rom for kode som nullstiller sidetall.
 %type re-reimaginert paginering.
 %(heltallspaginering starter først ved kapittel 1)
 %LEGG INN DEN HELVETES MILJØRESETTEN FOR LEMMA OG TESE-COUNTEREN!
 }
+
 
 \renewcommand{\lstlistingname}{Kodesett}
 \DeclareCaptionFont{white}{\color{white}}

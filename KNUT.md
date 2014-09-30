@@ -1,4 +1,4 @@
-«Oh, yeah», if you'll be wanting to start a new chapter, the chapter headings are formatted not with \section{}, but with *\kapittelhode{}*.
+Forløpende vedhengsliste:
 
-Oh, yeah», if you come across a overfull/underfull \hbox., feel free to set showframe=true in the geometry packagei
+ekstraluminisensens 2. pillarteorem har et innlegg i vedhenget; mer spesifikt er det det andre mellombeviset for pillarteoremet.
 
