@@ -1,6 +1,3 @@
-*.sublime-workspace
-*.sublime-project
-
 *.aux
 *.lof
 *.log
@@ -13,4 +10,3 @@
 build/*
 pdflatex.txt
 bibtex.txt
-
